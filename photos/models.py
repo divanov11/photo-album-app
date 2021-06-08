@@ -6,7 +6,6 @@ from django.contrib.auth.models import User
 
 class Category(models.Model):
     class Meta:
-        db_table = 'categories'
         verbose_name = 'Category'
         verbose_name_plural = 'Categories'
 
@@ -20,7 +19,6 @@ class Category(models.Model):
 
 class Photo(models.Model):
     class Meta:
-        db_table = 'photos'
         verbose_name = 'Photo'
         verbose_name_plural = 'Photos'
     
