@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Login/Regiser</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-    <style>
+{% extends 'base.html' %}
+{% block title %} Login or Register {% endblock title %}
+{% block inlinestyle %} 
+<style>
         .login--wrapper {
             display: flex;
             align-items: center;
@@ -22,7 +13,7 @@
             width: 500px;
         }
     </style>
-</head>
+{% endblock inlinestyle %}
 
 <body>
     <div class="container">
